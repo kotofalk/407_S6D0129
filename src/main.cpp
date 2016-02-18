@@ -70,6 +70,7 @@ void vTaskLED1(void *pvParameters) {
 void vTaskDisplayInit(void *pvParameters) {
 
 
+
     display0.initialize();
     vTaskDelete(NULL);
 
